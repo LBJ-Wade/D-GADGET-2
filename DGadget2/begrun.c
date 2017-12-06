@@ -396,7 +396,7 @@ void read_parameter_file(char *fname)
 
       strcpy(tag[nt], "DEParamChoice");
       addr[nt] = &All.DEParamChoice;
-      id[nt++] = DOUBLE;
+      id[nt++] = INT;
       
       strcpy(tag[nt], "BoxSize");
       addr[nt] = &All.BoxSize;
